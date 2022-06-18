@@ -7,40 +7,36 @@ body{
     font-style: 16px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
-    
+    display: flex;
 }
-@media screen and (max-width:1440px;) {body{background-color: hsl(0, 100%, 74%)
-    
-}
-@media  and (min-width:375px;) {body{
-    background-image: url(bg-intro-desktop.png);
-    background-color:hsl(0,100%,74%);
-    font-style:16px;
-    font-weight:700;}
 
-}
     
 
     
-}
+
 .content{
     width: 50%;
     float: left;
     padding: 13px;
     
 }
+/* .bottom{
+    width: 100;
+} */
 
-.top{
+.top{ 
+    justify-content: center;
     text-align: center;
-    margin-left: 200px;
+    align-items: center;
+    /* margin-left: 200px; */
     margin-top: 40%;
-    width: 50%;
+    width: 100%;
     color: white;
 }
 .content2{ 
     
     padding: 10px 10px 10px 10px;
-    /* width: 100%; */
+    /* width: 50%; */
     /* margin: 20px; */
     border: 1px solid black;
     background-color: rgb(255, 255, 255);
@@ -83,6 +79,9 @@ button{
     /* margin-left: 30%; */
     color: whitesmoke;
 
+}
+.last{
+    width: 100%;
 }
 .terms{
     text-align: center;
